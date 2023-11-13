@@ -1,4 +1,5 @@
 {
+  "homepage": "https://abduallahelbialy.github.com.io/react-on",
   "name": "htmlto",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "npm gh-pages -d deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
